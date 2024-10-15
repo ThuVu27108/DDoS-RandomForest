@@ -120,7 +120,7 @@ def onAnalyze():
                 d_str = d_str + '\n' + nameofpro + '   ' + str(rt.iloc[i,1]) + ' : ' + str(rt.iloc[i,2]) + ' - ' + str(rt.iloc[i,3]) + ' : ' + str(rt.iloc[i,4])
 
     if attack == 0:
-        tkinter.messagebox.showinfo(title='Detection', message='No attack has been found so far.')
+        tkinter.messagebox.showinfo(title='Detection', message='No attack has been found.')
     else:
         d_str = 'DDoS detected!\n' + d_str
         tkinter.messagebox.showinfo(title='Detection', message=d_str)
@@ -206,7 +206,7 @@ def onStart():
 
 #%% Hàm thông tin
 def about():
-    info_string = 'DDoS Detection Using Random Forest V1.0 '
+    info_string = 'DDoS Detection Using Random Forest '
     tkinter.messagebox.showinfo(title='About', message=info_string)
 
 #%% Main
