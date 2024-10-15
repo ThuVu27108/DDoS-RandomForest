@@ -126,7 +126,7 @@ def onAnalyze():
         tkinter.messagebox.showinfo(title='Detection', message=d_str)
 
 
-#%% Vo hiệu hóa nút Training trong thời gian huấn luyện
+#%% Vô hiệu hóa nút Training trong thời gian huấn luyện
 def onTraining():
     Button_0["state"] = "disabled"
     label.configure(text = 'Training...')
